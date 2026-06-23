@@ -1,0 +1,37 @@
+{
+  "name": "pruebas_sofware_dawa",
+  "version": "1.0.0",
+  "description": "Proyecto de Pruebas de Software - IST La Troncal",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mayury-ochoa-yomi/pruebas_sofware_dawa.git"
+  },
+  "keywords": [
+    "testing",
+    "dawa",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mayury-ochoa-yomi/pruebas_sofware_dawa/issues"
+  },
+  "homepage": "https://github.com/Mayury-ochoa-yomi/pruebas_sofware_dawa#readme",
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
